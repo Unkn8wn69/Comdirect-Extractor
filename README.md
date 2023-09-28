@@ -10,3 +10,7 @@ The goal of this project is to give Comdirect users a chance to analyse their Ba
   - [ ] Income, Expenses and Revenue
   - [ ] Paisa Converter
   - [ ] Graphs
+
+## Structure.
+Every script should take the sample from the file data.csv which should contain multiple accounts, a depot and a bunch of transactions. 
+If a script generates any outputs they should be saved into outputs/{script_name}_export
